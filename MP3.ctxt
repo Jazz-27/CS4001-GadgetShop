@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MP3
+comment0.text=\r\n\ Represents\ an\ MP3\ player\ gadget.\r\n\ This\ class\ extends\ the\ Gadget\ class\ and\ adds\ functionality\r\n\ related\ to\ available\ memory\ for\ storing\ music.\r\n
+comment1.params=model\ price\ weight\ size\ memory
+comment1.target=MP3(java.lang.String,\ double,\ int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ to\ initialise\ an\ MP3\ object.\r\n\r\n\ @param\ model\ \ the\ model\ name\ of\ the\ MP3\ player\r\n\ @param\ price\ \ the\ price\ of\ the\ MP3\ player\ in\ pounds\r\n\ @param\ weight\ the\ weight\ of\ the\ MP3\ player\ in\ grams\r\n\ @param\ size\ \ \ the\ size\ of\ the\ MP3\ player\r\n\ @param\ memory\ the\ available\ memory\r\n
+comment2.params=
+comment2.target=int\ getMemory()
+comment2.text=\r\n\ Returns\ the\ available\ memory.\r\n\r\n\ @return\ available\ memory\r\n
+comment3.params=amount
+comment3.target=void\ downloadMusic(int)
+comment3.text=\r\n\ Downloads\ music\ to\ the\ MP3\ player.\r\n\ Reduces\ available\ memory\ if\ enough\ space\ exists.\r\n\r\n\ @param\ amount\ the\ size\ of\ the\ music\ download\r\n
+comment4.params=amount
+comment4.target=void\ deleteMusic(int)
+comment4.text=\r\n\ Deletes\ music\ from\ the\ MP3\ player.\r\n\ Increases\ available\ memory.\r\n\r\n\ @param\ amount\ the\ size\ of\ the\ music\ deleted\r\n
+comment5.params=
+comment5.target=void\ display()
+comment5.text=\r\n\ Displays\ the\ details\ of\ the\ MP3\ player.\r\n\ Calls\ the\ display\ method\ from\ the\ Gadget\ class\r\n\ and\ then\ prints\ the\ available\ memory.\r\n
+numComments=6
